@@ -23,7 +23,7 @@ const SplashScreen = () => {
   return <div className="flex flex-col items-center justify-center min-h-screen bg-masar-cream">
       <div className={`transition-all duration-1000 ${animate ? 'scale-100 opacity-100' : 'scale-50 opacity-0'}`}>
         <div className="w-64 h-96 bg-masar-blue rounded-lg shadow-xl border-2 border-masar-gold/50 flex flex-col items-center justify-center p-6">
-          <img alt="Masar Logo" className="w-40 h-auto mb-8" src="/lovable-uploads/c09deefd-77b7-46b7-a99a-f8ba00407322.png" />
+          <img alt="Masar Logo" className="w-40 h-auto mb-8" src="/uploads/c09deefd-77b7-46b7-a99a-f8ba00407322.png" />
           <div className="text-center">
             <h1 className="text-white font-serif font-bold text-xl">MASAR</h1>
             <p className="text-white/80 text-sm mt-2">UAE Digital Passport</p>

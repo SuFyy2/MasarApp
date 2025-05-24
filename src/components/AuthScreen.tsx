@@ -100,7 +100,7 @@ const AuthScreen = () => {
   return <div className="min-h-screen flex flex-col bg-masar-cream">
       <div className="flex-1 flex flex-col justify-center items-center px-8 pt-8">
         <div className="mb-8 animate-fade-in">
-          <img alt="Masar Logo" className="w-40 h-auto" src="/lovable-uploads/e30f278e-11ed-4334-a4ec-e8f6bc9f837e.png" />
+          <img alt="Masar Logo" className="w-40 h-auto" src="/uploads/e30f278e-11ed-4334-a4ec-e8f6bc9f837e.png" />
         </div>
         
         <div className="w-full max-w-md">

@@ -191,7 +191,7 @@ const HomeScreen = () => {
       {/* Header */}
       <div className="bg-masar-blue text-white p-6 rounded-b-2xl">
         <div className="flex justify-between items-center">
-          <img alt="Masar Logo" src="/lovable-uploads/7df6787e-769a-4712-aabe-7322b3d7144b.png" className="h-8 object-fill" />
+          <img alt="Masar Logo" src="/uploads/7df6787e-769a-4712-aabe-7322b3d7144b.png" className="h-8 object-fill" />
           <div className="flex items-center space-x-4">
             {/* Points Counter */}
             {!userData.isDemoUser && (
@@ -217,7 +217,7 @@ const HomeScreen = () => {
       {/* Character Tip Banner */}
       <div className="bg-masar-teal/10 mx-4 my-4 p-4 rounded-xl flex items-center">
         <div className="w-14 h-14 rounded-full flex items-center justify-center mr-3">
-          <img alt="Hamdoon Character" className="w-14 h-14 object-contain" src="/lovable-uploads/2ca123d8-3083-4c49-a682-ea763b97b288.png" />
+          <img alt="Hamdoon Character" className="w-14 h-14 object-contain" src="/uploads/2ca123d8-3083-4c49-a682-ea763b97b288.png" />
         </div>
         <div className="flex-1">
           <p className="text-masar-blue font-medium text-sm animate-fade-in key={currentTip}">
@@ -232,7 +232,7 @@ const HomeScreen = () => {
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           <div className="relative h-44 flex items-center justify-center bg-masar-blue cursor-pointer" onClick={handlePassportClick}>
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuLWNpcmNsZXMiIHg9IjAiIHk9IjAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjEpIiAvPjwvcGF0dGVybj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI3BhdHRlcm4tY2lyY2xlcykiIC8+PC9zdmc+')] opacity-50"></div>
-            <img alt="Masar Logo" src="/lovable-uploads/61478542-9eea-4ce7-97df-c4378c6f5b2b.png" className="w-24 h-auto mb-2 z-10 object-fill" />
+            <img alt="Masar Logo" src="/uploads/61478542-9eea-4ce7-97df-c4378c6f5b2b.png" className="w-24 h-auto mb-2 z-10 object-fill" />
             <div className="absolute bottom-0 left-0 right-0 py-3 px-4 bg-gradient-to-t from-black/60 to-transparent">
               <p className="text-white font-serif text-center">MASAR EXPLORER PASSPORT</p>
             </div>

@@ -30,7 +30,7 @@ const getUserStorageKey = (key: string): string => {
 const emitatesData: Emirate[] = [{
   id: 'abu-dhabi',
   name: 'Abu Dhabi',
-  image: '/lovable-uploads/099f147b-9369-493d-998c-178a3529981f.jpg',
+  image: '/uploads/099f147b-9369-493d-998c-178a3529981f.jpg',
   locations: [{
     id: 1,
     name: 'Sheikh Zayed Mosque',
@@ -60,7 +60,7 @@ const emitatesData: Emirate[] = [{
 }, {
   id: 'dubai',
   name: 'Dubai',
-  image: '/lovable-uploads/6968950d-668c-4473-916a-a9c71594902e.jpg',
+  image: '/uploads/6968950d-668c-4473-916a-a9c71594902e.jpg',
   locations: [{
     id: 1,
     name: 'Burj Khalifa',
@@ -90,7 +90,7 @@ const emitatesData: Emirate[] = [{
 }, {
   id: 'sharjah',
   name: 'Sharjah',
-  image: '/lovable-uploads/e935a959-54c7-49a7-9914-4c5a9927294b.jpg',
+  image: '/uploads/e935a959-54c7-49a7-9914-4c5a9927294b.jpg',
   locations: [{
     id: 1,
     name: 'Sharjah Arts Museum',
@@ -120,7 +120,7 @@ const emitatesData: Emirate[] = [{
 }, {
   id: 'ajman',
   name: 'Ajman',
-  image: '/lovable-uploads/6010950f-4f4f-469b-b416-132398199f60.jpg',
+  image: '/uploads/6010950f-4f4f-469b-b416-132398199f60.jpg',
   locations: [{
     id: 1,
     name: 'Ajman Beach',
@@ -150,7 +150,7 @@ const emitatesData: Emirate[] = [{
 }, {
   id: 'umm-al-quwain',
   name: 'Umm Al Quwain',
-  image: '/lovable-uploads/099f147b-9369-493d-998c-178a3529981f.jpg',
+  image: '/uploads/099f147b-9369-493d-998c-178a3529981f.jpg',
   locations: [{
     id: 1,
     name: 'Umm Al Quwain Fort',
@@ -180,7 +180,7 @@ const emitatesData: Emirate[] = [{
 }, {
   id: 'fujairah',
   name: 'Fujairah',
-  image: '/lovable-uploads/6968950d-668c-4473-916a-a9c71594902e.jpg',
+  image: '/uploads/6968950d-668c-4473-916a-a9c71594902e.jpg',
   locations: [{
     id: 1,
     name: 'Al Bidya Mosque',
@@ -210,7 +210,7 @@ const emitatesData: Emirate[] = [{
 }, {
   id: 'ras-al-khaimah',
   name: 'Ras Al Khaimah',
-  image: '/lovable-uploads/e935a959-54c7-49a7-9914-4c5a9927294b.jpg',
+  image: '/uploads/e935a959-54c7-49a7-9914-4c5a9927294b.jpg',
   locations: [{
     id: 1,
     name: 'Dhayah Fort',
@@ -401,7 +401,7 @@ const PassportScreen = () => {
                 <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuLWNpcmNsZXMiIHg9IjAiIHk9IjAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjEpIiAvPjwvcGF0dGVybj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI3BhdHRlcm4tY2lyY2xlcykiIC8+PC9zdmc+')] opacity-50"></div>
                 
                 <div className="absolute top-8 w-full flex justify-center my-0 rounded-none bg-gray-700 px-0">
-                  <img alt="Masar Logo" className="w-32 h-auto" src="/lovable-uploads/9806cfd2-6d28-48d4-8e1c-c7117acbde65.png" />
+                  <img alt="Masar Logo" className="w-32 h-auto" src="/uploads/9806cfd2-6d28-48d4-8e1c-c7117acbde65.png" />
                 </div>
                 
                 <div className="text-center mt-24 relative">
@@ -430,7 +430,7 @@ const PassportScreen = () => {
                 <div className="flex-1 flex flex-col items-center">
                   <div className="relative mb-4">
                     <Avatar className="w-24 h-24 border-2 border-masar-gold">
-                      <AvatarImage src="/lovable-uploads/984e2ec2-cb8a-4d95-afeb-0e2d2195bd08.png" alt="Explorer Profile" />
+                      <AvatarImage src="/uploads/984e2ec2-cb8a-4d95-afeb-0e2d2195bd08.png" alt="Explorer Profile" />
                       <AvatarFallback className="bg-masar-teal text-white text-xl">
                         {userName ? userName.charAt(0) : 'E'}
                       </AvatarFallback>
