@@ -1,0 +1,93 @@
+
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="white"/>
+  <!-- Simple QR code pattern for Louvre Abu Dhabi -->
+  <g fill="black">
+    <!-- Corner markers -->
+    <rect x="10" y="10" width="30" height="30"/>
+    <rect x="160" y="10" width="30" height="30"/>
+    <rect x="10" y="160" width="30" height="30"/>
+    
+    <!-- Inner corner squares -->
+    <rect x="15" y="15" width="20" height="20" fill="white"/>
+    <rect x="165" y="15" width="20" height="20" fill="white"/>
+    <rect x="15" y="165" width="20" height="20" fill="white"/>
+    
+    <!-- Center inner squares -->
+    <rect x="20" y="20" width="10" height="10"/>
+    <rect x="170" y="20" width="10" height="10"/>
+    <rect x="20" y="170" width="10" height="10"/>
+    
+    <!-- Third unique data pattern for Louvre -->
+    <rect x="55" y="10" width="5" height="5"/>
+    <rect x="70" y="10" width="5" height="5"/>
+    <rect x="80" y="10" width="5" height="5"/>
+    <rect x="95" y="10" width="5" height="5"/>
+    <rect x="110" y="10" width="5" height="5"/>
+    <rect x="130" y="10" width="5" height="5"/>
+    <rect x="145" y="10" width="5" height="5"/>
+    
+    <rect x="10" y="45" width="5" height="5"/>
+    <rect x="30" y="45" width="5" height="5"/>
+    <rect x="45" y="45" width="5" height="5"/>
+    <rect x="60" y="45" width="5" height="5"/>
+    <rect x="75" y="45" width="5" height="5"/>
+    <rect x="90" y="45" width="5" height="5"/>
+    <rect x="105" y="45" width="5" height="5"/>
+    <rect x="120" y="45" width="5" height="5"/>
+    <rect x="140" y="45" width="5" height="5"/>
+    <rect x="160" y="45" width="5" height="5"/>
+    <rect x="180" y="45" width="5" height="5"/>
+    
+    <!-- Museum pattern -->
+    <rect x="55" y="65" width="5" height="5"/>
+    <rect x="75" y="65" width="5" height="5"/>
+    <rect x="95" y="65" width="5" height="5"/>
+    <rect x="115" y="65" width="5" height="5"/>
+    <rect x="135" y="65" width="5" height="5"/>
+    <rect x="155" y="65" width="5" height="5"/>
+    <rect x="175" y="65" width="5" height="5"/>
+    
+    <rect x="35" y="85" width="5" height="5"/>
+    <rect x="55" y="85" width="5" height="5"/>
+    <rect x="75" y="85" width="5" height="5"/>
+    <rect x="115" y="85" width="5" height="5"/>
+    <rect x="135" y="85" width="5" height="5"/>
+    <rect x="155" y="85" width="5" height="5"/>
+    <rect x="175" y="85" width="5" height="5"/>
+    
+    <!-- Center alignment pattern -->
+    <rect x="85" y="85" width="30" height="30"/>
+    <rect x="90" y="90" width="20" height="20" fill="white"/>
+    <rect x="95" y="95" width="10" height="10"/>
+    
+    <!-- Different bottom patterns -->
+    <rect x="55" y="135" width="5" height="5"/>
+    <rect x="75" y="135" width="5" height="5"/>
+    <rect x="95" y="135" width="5" height="5"/>
+    <rect x="135" y="135" width="5" height="5"/>
+    <rect x="155" y="135" width="5" height="5"/>
+    <rect x="175" y="135" width="5" height="5"/>
+    
+    <rect x="45" y="155" width="5" height="5"/>
+    <rect x="65" y="155" width="5" height="5"/>
+    <rect x="85" y="155" width="5" height="5"/>
+    <rect x="105" y="155" width="5" height="5"/>
+    <rect x="125" y="155" width="5" height="5"/>
+    <rect x="145" y="155" width="5" height="5"/>
+    <rect x="165" y="155" width="5" height="5"/>
+    
+    <rect x="55" y="185" width="5" height="5"/>
+    <rect x="75" y="185" width="5" height="5"/>
+    <rect x="95" y="185" width="5" height="5"/>
+    <rect x="115" y="185" width="5" height="5"/>
+    <rect x="135" y="185" width="5" height="5"/>
+    <rect x="155" y="185" width="5" height="5"/>
+    <rect x="175" y="185" width="5" height="5"/>
+  </g>
+  
+  <!-- Label -->
+  <text x="100" y="215" text-anchor="middle" font-family="Arial" font-size="12" fill="black">
+    Louvre Abu Dhabi
+  </text>
+</svg>
